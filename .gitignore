@@ -1,0 +1,33 @@
+# Credenziali: MAI committare
+.env
+.env.local
+*.key
+credentials.json
+service_account.json
+token.json
+
+# Output della pipeline (contengono dati degli annunci)
+output/
+*.csv
+*.xlsx
+
+# Notebook: rimuovere gli output prima del commit
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Cache dei modelli sentence-transformers
+.cache/
+models/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
