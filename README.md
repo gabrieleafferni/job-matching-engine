@@ -1,5 +1,5 @@
 # Job Matching Engine
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gabrieleafferni/job-matching-engine/blob/main/job_matching_engine.ipynb)
 **Multi-source job aggregation with hybrid semantic scoring and LLM re-ranking.**
 
 A retrieval-and-ranking pipeline that collects job postings from five job boards via their official APIs, normalises them into a common schema, applies configurable eligibility filters, and ranks them against a candidate profile using multilingual sentence embeddings combined with an LLM-as-judge stage.
